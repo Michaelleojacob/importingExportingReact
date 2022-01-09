@@ -1,7 +1,9 @@
+import MyComponent from '../MyComponent/MyComponent';
+
 export default function App() {
   return (
     <div>
-      <h1>Hi</h1>
+      <MyComponent title={'hello Miggels'} />
     </div>
   );
 }
